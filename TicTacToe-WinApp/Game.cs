@@ -24,8 +24,8 @@ namespace TicTacToe_WinApp
             FormBorderStyle = FormBorderStyle.FixedDialog;
             this.Name1Label.Text = player1.NamePlayer;
             this.Name2Label.Text = player2.NamePlayer;
-            this.CurrentName.Text = player1.NamePlayer;            
-
+            this.CurrentName.Text = player1.NamePlayer;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -120,9 +120,9 @@ namespace TicTacToe_WinApp
 
         private void button7_Click(object sender, EventArgs e)
         {
+            VerifyRepeated(6);
             if (!repeatedPosition)
-            {
-                VerifyRepeated(6);
+            {               
                 position[6] = "-";
                 SelectPosition();
                 button7.Text = position[6];
@@ -135,9 +135,9 @@ namespace TicTacToe_WinApp
 
         private void button8_Click(object sender, EventArgs e)
         {
+            VerifyRepeated(7);
             if (!repeatedPosition)
             {
-                VerifyRepeated(7);
                 position[7] = "-";
                 SelectPosition();
                 button8.Text = position[7];
@@ -150,9 +150,9 @@ namespace TicTacToe_WinApp
 
         private void button9_Click(object sender, EventArgs e)
         {
+            VerifyRepeated(8);
             if (!repeatedPosition)
             {
-                VerifyRepeated(8);
                 position[8] = "-";
                 SelectPosition();
                 button9.Text = position[8];
@@ -163,20 +163,6 @@ namespace TicTacToe_WinApp
             }
         }
 
-        private void Event(int a)
-        {
-            if (!repeatedPosition)
-            {
-                VerifyRepeated(a);
-                position[a] = "-";
-                SelectPosition();
-                button8.Text = position[a];
-                VerifyWinner();
-                ChangeCurrentPlayer();
-                ResetButtons();
-                RefreshScore();
-            }
-        }
         private void VerifyDraw()
         {
             byte emptyPositions = 0;

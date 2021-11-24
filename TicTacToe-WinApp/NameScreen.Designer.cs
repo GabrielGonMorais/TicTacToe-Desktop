@@ -39,7 +39,7 @@
             // textBox1
             // 
             this.textBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox1.Location = new System.Drawing.Point(165, 253);
+            this.textBox1.Location = new System.Drawing.Point(186, 273);
             this.textBox1.MaxLength = 9;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(210, 27);
@@ -48,7 +48,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(161, 133);
+            this.textBox2.Location = new System.Drawing.Point(186, 153);
             this.textBox2.MaxLength = 9;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(210, 27);
@@ -58,7 +58,7 @@
             // LabelEnterName1
             // 
             this.LabelEnterName1.AutoSize = true;
-            this.LabelEnterName1.Location = new System.Drawing.Point(162, 101);
+            this.LabelEnterName1.Location = new System.Drawing.Point(194, 121);
             this.LabelEnterName1.Name = "LabelEnterName1";
             this.LabelEnterName1.Size = new System.Drawing.Size(192, 20);
             this.LabelEnterName1.TabIndex = 2;
@@ -67,7 +67,7 @@
             // LabelEnterName2
             // 
             this.LabelEnterName2.AutoSize = true;
-            this.LabelEnterName2.Location = new System.Drawing.Point(161, 213);
+            this.LabelEnterName2.Location = new System.Drawing.Point(186, 233);
             this.LabelEnterName2.Name = "LabelEnterName2";
             this.LabelEnterName2.Size = new System.Drawing.Size(214, 20);
             this.LabelEnterName2.TabIndex = 3;
@@ -75,9 +75,9 @@
             // 
             // buttonStart
             // 
-            this.buttonStart.Location = new System.Drawing.Point(165, 308);
+            this.buttonStart.Location = new System.Drawing.Point(186, 328);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(207, 57);
+            this.buttonStart.Size = new System.Drawing.Size(211, 57);
             this.buttonStart.TabIndex = 4;
             this.buttonStart.Text = "Start";
             this.buttonStart.UseVisualStyleBackColor = true;
@@ -88,7 +88,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(542, 479);
+            this.ClientSize = new System.Drawing.Size(592, 533);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.LabelEnterName2);
             this.Controls.Add(this.LabelEnterName1);
